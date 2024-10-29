@@ -1,0 +1,15 @@
+Compile the program:
+gcc driver.c algorithms.c page_utils.c  -o program
+
+Run the program:
+./program [FIFO/LRU/LFU/MFU/RANDOM]
+
+Example:
+./program FIFO
+
+
+To store the output records to a file:
+./program FIFO > FIFO
+
+To run the program with all algorithms:
+./run_all.sh
